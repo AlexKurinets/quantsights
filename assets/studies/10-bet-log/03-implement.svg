@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#f3efe6"/>
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" fill="#1c1814">
+    <text x="48" y="84" font-size="18" fill="#b8431f" font-weight="650">03  Implement</text>
+    <text x="48" y="150" font-size="32" font-weight="650">Train and infer are separate</text>
+    <rect x="48" y="250" width="379" height="160" rx="8" fill="#fff" stroke="#1c1814"/><text x="237" y="312" text-anchor="middle" font-size="20" font-weight="650">Load</text><text x="237" y="352" text-anchor="middle" font-size="16" fill="#5e584e">The structured log</text><rect x="451" y="250" width="379" height="160" rx="8" fill="#fff" stroke="#1c1814"/><text x="640" y="312" text-anchor="middle" font-size="20" font-weight="650">Train</text><text x="640" y="352" text-anchor="middle" font-size="16" fill="#5e584e">A sequence model</text><rect x="853" y="250" width="379" height="160" rx="8" fill="#fff" stroke="#1c1814"/><text x="1043" y="312" text-anchor="middle" font-size="20" font-weight="650">Infer</text><text x="1043" y="352" text-anchor="middle" font-size="16" fill="#5e584e">Reads a finished model</text>
+  </g>
+</svg>

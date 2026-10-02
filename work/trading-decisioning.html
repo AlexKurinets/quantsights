@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Trading algo decisioning — QuantSights LLC</title>
+  <meta name="description" content="A trading algorithm needs a draft and a classification. If the same component can also send the order, a stale snapshot or a repeat can act twice." />
+  <link rel="stylesheet" href="../assets/site.css" />
+</head>
+<body>
+<header><div class="wrap bar">
+      <a class="mark" href="../index.html">QUANTSIGHTS</a>
+      <nav>
+        <a href="../work/index.html" aria-current="page">Work</a>
+        <a href="../focus.html">Focus</a>
+        <a href="../about.html">Firm</a>
+      </nav>
+    </div></header>
+<main class="wrap">
+<div class="hero"><p class="kicker">Case study</p><h1>Trading algo decisioning</h1></div>
+    <article class="beat">
+          <p class="kicker">Problem</p>
+          <h2>Problem</h2>
+          <div class="figure"><img src="../assets/studies/05-trading-decisioning/01-problem.svg" alt="Problem for Trading algo decisioning" /></div>
+          <p>A trading algorithm needs a draft and a classification. If the same component can also send the order, a stale snapshot or a repeat can act twice.</p>
+        </article><article class="beat">
+          <p class="kicker">Design</p>
+          <h2>Design</h2>
+          <div class="figure"><img src="../assets/studies/05-trading-decisioning/02-design.svg" alt="Design for Trading algo decisioning" /></div>
+          <p>The model drafts only. Three checks have to be true before anything is sent: the score clears a hard threshold, the snapshot is still current, and the kill switch is off. One execution service is the only writer.</p>
+        </article><article class="beat">
+          <p class="kicker">Implementation</p>
+          <h2>Implementation</h2>
+          <div class="figure"><img src="../assets/studies/05-trading-decisioning/03-implement.svg" alt="Implementation for Trading algo decisioning" /></div>
+          <p>One store is the record of truth. Every reader uses the same snapshot id. The ledger row and the audit row commit together. If the model and the rules disagree, the rules win.</p>
+        </article><article class="beat">
+          <p class="kicker">Benefit</p>
+          <h2>Benefits</h2>
+          <div class="figure"><img src="../assets/studies/05-trading-decisioning/04-benefit.svg" alt="Benefit for Trading algo decisioning" /></div>
+          <p>The model classifies and stops. A disagreement does not fire. A repeated request does not apply the action twice.</p>
+        </article>
+    <p><a href="index.html">All work</a></p>
+</main>
+<footer><div class="wrap">QuantSights LLC. A Florida limited liability company. Parkland, Florida. Results and delivery scope only.</div></footer>
+</body>
+</html>

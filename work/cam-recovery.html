@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CAM recovery likelihood — QuantSights LLC</title>
+  <meta name="description" content="Common-area charges are not recovered evenly across locations. A score fit on the same year it is judged flatters the result." />
+  <link rel="stylesheet" href="../assets/site.css" />
+</head>
+<body>
+<header><div class="wrap bar">
+      <a class="mark" href="../index.html">QUANTSIGHTS</a>
+      <nav>
+        <a href="../work/index.html" aria-current="page">Work</a>
+        <a href="../focus.html">Focus</a>
+        <a href="../about.html">Firm</a>
+      </nav>
+    </div></header>
+<main class="wrap">
+<div class="hero"><p class="kicker">Case study</p><h1>CAM recovery likelihood</h1></div>
+    <article class="beat">
+          <p class="kicker">Problem</p>
+          <h2>Problem</h2>
+          <div class="figure"><img src="../assets/studies/02-cam-recovery/01-problem.svg" alt="Problem for CAM recovery likelihood" /></div>
+          <p>Common-area charges are not recovered evenly across locations. A score fit on the same year it is judged flatters the result.</p>
+        </article><article class="beat">
+          <p class="kicker">Design</p>
+          <h2>Design</h2>
+          <div class="figure"><img src="../assets/studies/02-cam-recovery/02-design.svg" alt="Design for CAM recovery likelihood" /></div>
+          <p>Train only on earlier years. Hold out one test year. Judge how cleanly recoveries separate from the rest in that unseen year.</p>
+        </article><article class="beat">
+          <p class="kicker">Implementation</p>
+          <h2>Implementation</h2>
+          <div class="figure"><img src="../assets/studies/02-cam-recovery/03-implement.svg" alt="Implementation for CAM recovery likelihood" /></div>
+          <p>Run one walk-forward pass per year from 2009 through 2024. Fit on the prior years only. Record a separation score for that test year.</p>
+        </article><article class="beat">
+          <p class="kicker">Benefit</p>
+          <h2>Benefits</h2>
+          <div class="figure"><img src="../assets/studies/02-cam-recovery/benefits.png" alt="Benefit for CAM recovery likelihood" /></div>
+          <p>Each bar is a year the model had not seen. A taller bar is a year when recoveries and non-recoveries were easier to tell apart.</p>
+        </article>
+    <p><a href="index.html">All work</a></p>
+</main>
+<footer><div class="wrap">QuantSights LLC. A Florida limited liability company. Parkland, Florida. Results and delivery scope only.</div></footer>
+</body>
+</html>

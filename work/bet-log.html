@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bet-log ingestion and sequence model — QuantSights LLC</title>
+  <meta name="description" content="Bets lived in a manual log. There was no ordered history per account, and no separate step that scored the next outcome." />
+  <link rel="stylesheet" href="../assets/site.css" />
+</head>
+<body>
+<header><div class="wrap bar">
+      <a class="mark" href="../index.html">QUANTSIGHTS</a>
+      <nav>
+        <a href="../work/index.html" aria-current="page">Work</a>
+        <a href="../focus.html">Focus</a>
+        <a href="../about.html">Firm</a>
+      </nav>
+    </div></header>
+<main class="wrap">
+<div class="hero"><p class="kicker">Case study</p><h1>Bet-log ingestion and sequence model</h1></div>
+    <article class="beat">
+          <p class="kicker">Problem</p>
+          <h2>Problem</h2>
+          <div class="figure"><img src="../assets/studies/10-bet-log/01-problem.svg" alt="Problem for Bet-log ingestion and sequence model" /></div>
+          <p>Bets lived in a manual log. There was no ordered history per account, and no separate step that scored the next outcome.</p>
+        </article><article class="beat">
+          <p class="kicker">Design</p>
+          <h2>Design</h2>
+          <div class="figure"><img src="../assets/studies/10-bet-log/02-design.svg" alt="Design for Bet-log ingestion and sequence model" /></div>
+          <p>Replace the manual log with structured rows. Keep past bets in order, per account. Train a sequence model. Score later, in a separate run.</p>
+        </article><article class="beat">
+          <p class="kicker">Implementation</p>
+          <h2>Implementation</h2>
+          <div class="figure"><img src="../assets/studies/10-bet-log/03-implement.svg" alt="Implementation for Bet-log ingestion and sequence model" /></div>
+          <p>Load the structured log. Train the sequence model to completion. Run inference only against that finished model, and do not retrain during inference.</p>
+        </article><article class="beat">
+          <p class="kicker">Benefit</p>
+          <h2>Benefits</h2>
+          <div class="figure"><img src="../assets/studies/10-bet-log/04-benefit.svg" alt="Benefit for Bet-log ingestion and sequence model" /></div>
+          <p>Each account has an ordered history. Training is over before a score is written. Inference writes a score for the next outcome and stops.</p>
+        </article>
+    <p><a href="index.html">All work</a></p>
+</main>
+<footer><div class="wrap">QuantSights LLC. A Florida limited liability company. Parkland, Florida. Results and delivery scope only.</div></footer>
+</body>
+</html>

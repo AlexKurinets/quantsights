@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#f3efe6"/>
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" fill="#1c1814">
+    <text x="48" y="84" font-size="18" fill="#b8431f" font-weight="650">02  Design</text>
+    <text x="48" y="150" font-size="32" font-weight="650">Group, merge, then one summary</text>
+    <rect x="48" y="250" width="278" height="160" rx="8" fill="#fff" stroke="#1c1814"/><text x="187" y="312" text-anchor="middle" font-size="20" font-weight="650">Ingest</text><text x="187" y="352" text-anchor="middle" font-size="16" fill="#5e584e">Blocked sources stay out</text><rect x="350" y="250" width="278" height="160" rx="8" fill="#fff" stroke="#1c1814"/><text x="489" y="312" text-anchor="middle" font-size="20" font-weight="650">Cluster</text><text x="489" y="352" text-anchor="middle" font-size="16" fill="#5e584e">Same story, one group</text><rect x="652" y="250" width="278" height="160" rx="8" fill="#fff" stroke="#1c1814"/><text x="791" y="312" text-anchor="middle" font-size="20" font-weight="650">Merge</text><text x="791" y="352" text-anchor="middle" font-size="16" fill="#5e584e">Groups of one story collapse</text><rect x="954" y="250" width="278" height="160" rx="8" fill="#fff" stroke="#1c1814"/><text x="1093" y="312" text-anchor="middle" font-size="20" font-weight="650">Summary</text><text x="1093" y="352" text-anchor="middle" font-size="16" fill="#5e584e">One, for the merged cluster</text>
+  </g>
+</svg>

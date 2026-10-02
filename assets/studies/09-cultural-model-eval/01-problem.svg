@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#f3efe6"/>
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" fill="#1c1814">
+    <text x="72" y="84" font-size="18" fill="#b8431f" font-weight="650">01  Problem</text>
+    <text x="72" y="140" font-size="36" font-weight="650">Did the fine-tune change anything</text>
+    <text x="72" y="210" font-size="26">A public model can be adapted to a cultural task.</text><text x="72" y="252" font-size="26">Without a frozen copy of the same starting weights,</text><text x="72" y="294" font-size="26">there is nothing honest to compare it with.</text>
+  </g>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#f3efe6"/>
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" fill="#1c1814">
+    <text x="48" y="84" font-size="18" fill="#b8431f" font-weight="650">02  Design</text>
+    <text x="48" y="150" font-size="32" font-weight="650">Four steps, then a person</text>
+    <rect x="48" y="250" width="278" height="160" rx="8" fill="#fff" stroke="#1c1814"/><text x="187" y="312" text-anchor="middle" font-size="20" font-weight="650">Readings</text><text x="187" y="352" text-anchor="middle" font-size="16" fill="#5e584e">Levels and signals</text><rect x="350" y="250" width="278" height="160" rx="8" fill="#fff" stroke="#1c1814"/><text x="489" y="312" text-anchor="middle" font-size="20" font-weight="650">Plan</text><text x="489" y="352" text-anchor="middle" font-size="16" fill="#5e584e">Context before a draft</text><rect x="652" y="250" width="278" height="160" rx="8" fill="#fff" stroke="#1c1814"/><text x="791" y="312" text-anchor="middle" font-size="20" font-weight="650">Risk gate</text><text x="791" y="352" text-anchor="middle" font-size="16" fill="#5e584e">Stays on</text><rect x="954" y="250" width="278" height="160" rx="8" fill="#fff" stroke="#1c1814"/><text x="1093" y="312" text-anchor="middle" font-size="20" font-weight="650">Person</text><text x="1093" y="352" text-anchor="middle" font-size="16" fill="#5e584e">Sends the action</text>
+  </g>
+</svg>
